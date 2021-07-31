@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/style.css">
+  <title>drumkit</title>
+</head>
+
+
+<body>
+
+  <main>
+    <div class="container">
+      <h1>Drumkit</h1>
+      <div class="grid">
+        <div data-sound="65" class="key">
+          <kbd>A</kbd>
+          <span>clap</span>
+        </div>
+
+        <div data-sound="83" class="key">
+          <kbd>S</kbd>
+          <span>hihat</span>
+        </div>
+
+        <div data-sound="68" class="key">
+          <kbd>D</kbd>
+          <span>kick</span>
+        </div>
+
+        <div data-sound="70" class="key">
+          <kbd>F</kbd>
+          <span>openhat</span>
+        </div>
+
+        <div data-sound="71" class="key">
+          <kbd>G</kbd>
+          <span>boom</span>
+        </div>
+
+        <div data-sound="72" class="key">
+          <kbd>H</kbd>
+          <span>ride</span>
+        </div>
+
+        <div data-sound="74" class="key">
+          <kbd>J</kbd>
+          <span>snare</span>
+        </div>
+
+        <div data-sound="75" class="key">
+          <kbd>K</kbd>
+          <span>tom</span>
+        </div>
+
+        <div data-sound="76" class="key">
+          <kbd>L</kbd>
+          <span>tink</span>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="author">
+    <p>Created by <a href="https://www.linkedin.com/in/ian-coel/">Ian Coelho</a></p>
+  </div>
+
+
+  <audio src="./src/sounds/clap.wav" data-sound="65"></audio>
+  <audio src="./src/sounds/hihat.wav" data-sound="83"></audio>
+  <audio src="./src/sounds/kick.wav" data-sound="68"></audio>
+  <audio src="./src/sounds/openhat.wav" data-sound="70"></audio>
+  <audio src="./src/sounds/boom.wav" data-sound="71"></audio>
+  <audio src="./src/sounds/ride.wav" data-sound="72"></audio>
+  <audio src="./src/sounds/snare.wav" data-sound="74"></audio>
+  <audio src="./src/sounds/tom.wav" data-sound="75"></audio>
+  <audio src="./src/sounds/tink.wav" data-sound="76"></audio>
+
+</body>
+
+<script src="src/script.js"></script>
+
+</html>
